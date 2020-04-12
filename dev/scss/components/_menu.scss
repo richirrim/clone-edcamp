@@ -1,0 +1,78 @@
+/*-----------------------*\
+    $Menu
+\*-----------------------*/
+.main-nav {
+    // outline: 1px solid #ccc; // test
+    position: fixed;
+    top: $header-height;
+    left: -70vw;
+    bottom: 0;
+    width: 70vw;
+    height: calc(100vh - #{$header-height});
+    background-color: var(--text-color);
+    transition: left .3s;
+    z-index: var(--z-tooltip);
+    &.showMenu { left: 0; }
+    @include from(medium) {
+        position: initial;
+        background-color: initial;
+        width: auto;
+        height: auto;
+    }
+}
+    .main-menu-icon {
+        $color: var(--text-color);
+
+        width: ($header-height / 2 ) + .5;
+        height: $header-height / 2;
+        background-image: linear-gradient(
+            $color 20%, 
+            transparent 20%, transparent 40%, 
+            $color 40%, $color 60%, 
+            transparent 60%, transparent 80%, 
+            $color 80%
+        );
+        cursor: pointer;
+        transition: all .3s;
+        &:active { transform: scale(.90); }
+        @include from(medium) { display: none; }
+    }
+
+
+.main-menu {
+    // outline: 2px solid red; // test
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-left: 1em;
+    
+    @include from(medium) { 
+        display: flex;
+        padding-top: 0;
+        padding-left: 0;
+    }
+   
+    &__item { 
+        list-style-type: none; 
+        @include from(medium) {
+            &:not(:last-child) { margin-right: 1em; }
+        }
+    }
+    &__item:not(:last-child) { 
+        margin-bottom: 1em; 
+        @include from(medium) { margin-bottom: 0; }
+    }
+    &__link { 
+        display: block;
+        color: #fff;
+        transition: all .3s;
+        &:hover { color: var(--accent-color); }
+        @include from(medium) { 
+            color: var(--text-color); 
+            &:hover { 
+                color: #fff; 
+                text-shadow: rgba(#000, .3) 0 .05em .15em;
+            }
+        }
+    }
+}

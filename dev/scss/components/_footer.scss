@@ -1,0 +1,40 @@
+/*-----------------------*\
+    $Footer
+\*-----------------------*/
+.main-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
+    background-color: var(--text-color);
+    div {
+        text-align: center;
+        @include from(medium) { justify-content: space-between; }
+        align-items: center;
+    }
+    .user {
+        margin: 0;
+        a {
+            color: var(--accent-color);
+            &:hover { color: var(--accent-color2); }
+        }    
+    }
+    .socials {
+        margin-bottom: .8em;
+        @include from(medium) { 
+            margin-bottom: 0; 
+            order: 1;
+        }
+        > * {
+            display: inline-block;
+            transition: all .25s;
+            &:hover { transform: scale(.90); }
+        }
+    }
+    
+    .user,
+    .socials {
+        // outline: 2px solid tomato; // test
+        width: 100%;
+        @include from(medium) { width: initial; }
+    }
+}

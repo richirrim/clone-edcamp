@@ -1,0 +1,50 @@
+/*-----------------------*\
+    $Variables
+\*-----------------------*/
+$max-width: 1200px;
+$header-height: 3rem;
+$border-color: #ccc;
+$dark-color: #141618;
+
+/* Paleta de colores */
+:root {
+    --first-color: #00bcd4;
+    --second-color: #0097a7;
+    --accent-color: #ffc400;
+    --accent-color2: #ffab00;
+    --bg-color: #eeeeee;
+    --bg-color2: #e0e0e0;
+    --text-color: #263238;
+}
+/* Variables de apilamiento */
+:root {
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+$breakPoints: (
+    medium: 768px,
+    large: 960px
+);
+
+/* Variables de tipografia */
+:root {
+    --font-content: lato, arial;
+    --font-title: roboto, arial;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.2rem;
+    --body-font-size: 1rem;
+    --small-font-size: .8rem;
+    
+    @include from(medium) {
+        --h1-font-size: 2.4rem;
+        --h2-font-size: 2rem;
+        --h3-font-size: 1.5rem;
+        --body-font-size: 1.1rem;
+        --small-font-size: .9rem;
+    }
+}

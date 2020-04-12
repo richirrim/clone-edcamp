@@ -1,0 +1,24 @@
+/*-----------------------*\
+    $Header
+\*-----------------------*/
+.main-header {
+    position: fixed;
+    width: 100%;
+    height: $header-height;
+    @include from(medium) { height: $header-height + 1; }
+    background-color: var(--first-color);
+    z-index: var(--z-tooltip);
+}
+.main-header__block { 
+    justify-content: space-between; 
+    align-items: center;
+}
+.main-logo {
+    // margin-top: 1rem;
+    // margin-bottom: 1rem; // no es necesario.
+    width: initial;
+    height: $header-height /  2;
+    @include from(medium) {
+        height: $header-height - 1;
+    }
+}

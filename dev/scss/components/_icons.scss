@@ -1,0 +1,52 @@
+// Convierte color hexadecimal a un color filtro:
+// - https://codepen.io/sosuke/pen/Pjoqqp?editors=0010
+[class*=icon-] {
+    &::before {
+        content: "";
+        display: inline-block;
+        margin-right: .5em;
+        width: 1.3em;
+        height: 1.3em;
+    }
+    &:hover::before,
+    &:focus::before {
+        filter: invert(60%) sepia(90%) saturate(2096%) hue-rotate(143deg) brightness(99%) contrast(90%);
+    }
+}
+.icon-location {
+    &::before {
+        content: "";
+        background-image: url(/images/icon-pin.svg);
+    }
+    
+}
+.icon-facebook {
+    &::before {
+        content: "";
+        background-image: url(/images/facebook.svg);
+    }
+}
+// .icon-medium {
+//     &::before {
+//         content: "";
+//         background: url(/images/m.svg);
+//     }
+// }
+.icon-twitter {
+    &::before {
+        content: "";
+        background-image: url(/images/twitter.svg);
+    }
+}
+.icon-instagram {
+    &::before {
+        content: "";
+        background-image: url(/images/instagram.svg);
+    }
+}
+.icon-github {
+    &::before {
+        content: "";
+        background-image: url(/images/github.svg);
+    }
+}

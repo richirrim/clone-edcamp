@@ -1,0 +1,35 @@
+/*-----------------------*\
+    $Base
+\*-----------------------*/
+*,
+*::after,
+*::before { box-sizing: border-box; }
+body {
+    font-size: var(--body-font-size);
+    font-family: var(--font-content);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+a { 
+    color: var(--text-color);
+    text-decoration: none; 
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+    // outline: 2px solid tomato; // test
+    margin-top: 0;
+    font-family: var(--font-title); 
+}
+h1 { font-size: var(--h1-font-size); }
+h2 { font-size: var(--h2-font-size); }
+h3 { font-size: var(--h3-font-size); }

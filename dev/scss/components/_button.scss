@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    border-radius: .3em;
+    border: .08em solid var(--accent-color);
+    padding: .6em 1.8em .6em;
+    color: var(--accent-color);
+    text-shadow: rgba(#000, .6) 0 .4 .7;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    &:active { transform: scale(.96); }
+    &:hover {
+        background-color: var(--accent-color);
+        color: var(--text-color);
+    }
+}
