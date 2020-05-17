@@ -3,4 +3,4 @@
 node_modules
 *.node
 .idea
-public
+# public
