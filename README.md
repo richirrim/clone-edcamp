@@ -20,4 +20,4 @@ Y por último utilicé Browser-Sync para refrescar el sitio cada vez que gulp de
 - 🔗 Curso: [Responsive Web Design](https://ed.team/cursos/rwd)
 - 🔗 Enlace a mi certificado: https://ed.team/richirrim/curso/rwd
 
-![image preview - clone landing page edcamp](https://repository-images.githubusercontent.com/255183742/e1bd9c80-985a-11ea-942f-6ab029ac783c)
+![image preview - clone landing page edcamp](https://repository-images.githubusercontent.com/255183742/9c4d9f00-985b-11ea-9f25-3e7f7187add9)
