@@ -8,22 +8,22 @@ const browserSync = require('browser-sync').create()
 sass.compiler = require('node-sass')
 
 var paths = {
-    raiz: 'public',
+    raiz: 'docs',
     html: {
       src: 'dev/**/*.pug',
-      dest: 'public/'
+      dest: 'docs/'
     },
     styles: {
       src: 'dev/scss/**/*.scss',
-      dest: 'public/css/'
+      dest: 'docs/css/'
     },
     scripts: {
       src: 'dev/js/**/*.js',
-      dest: 'public/js/'
+      dest: 'docs/js/'
     },
     images: {
       src: 'dev/images/**/*',
-      dest: 'public/images/'
+      dest: 'docs/images/'
     }
 };
 
