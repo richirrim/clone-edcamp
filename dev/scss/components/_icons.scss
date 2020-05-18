@@ -16,37 +16,37 @@
 .icon-location {
     &::before {
         content: "";
-        background-image: url(/docs/images/icon-pin.svg);
+        background-image: url(images/icon-pin.svg);
     }
     
 }
 .icon-facebook {
     &::before {
         content: "";
-        background-image: url(/docs/images/facebook.svg);
+        background-image: url(images/facebook.svg);
     }
 }
 // .icon-medium {
 //     &::before {
 //         content: "";
-//         background: url(/docs/images/m.svg);
+//         background: url(images/m.svg);
 //     }
 // }
 .icon-twitter {
     &::before {
         content: "";
-        background-image: url(/docs/images/twitter.svg);
+        background-image: url(images/twitter.svg);
     }
 }
 .icon-instagram {
     &::before {
         content: "";
-        background-image: url(/docs/images/instagram.svg);
+        background-image: url(images/instagram.svg);
     }
 }
 .icon-github {
     &::before {
         content: "";
-        background-image: url(/docs/images/github.svg);
+        background-image: url(images/github.svg);
     }
 }
