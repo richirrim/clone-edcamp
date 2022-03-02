@@ -4,7 +4,7 @@
 
 **📝 Descripción:**
 
-En el curso de RWD como proyecto final fue crear una landing page. El profesor Álvaro Felipe nos enseñó como clonar la landing page del EDCamp en su versión mobile y desktop.  Usamos la metodología "mobile first" para el response web desing.
+En el curso de RWD como proyecto final fue crear una landing page. El profesor [Álvaro Felipe](alvarofelipechavez) nos enseñó como clonar la landing page del EDCamp en su versión mobile y desktop.  Usamos la metodología "mobile first" para el response web desing.
 
 En la creación de esta landing se implementaron cosas como custom propertys para organizar la paleta de colores del sitio, para la tipografia, variables de apilamiento (z-index), breakpoint, etc.
 
